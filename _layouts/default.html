@@ -1,0 +1,58 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  {% include head.html %}
+  <body class="site home-page">
+    {% include header.html %}
+
+    <main class="site__content">
+      <section class="hero personal-hero" aria-labelledby="welcome-title">
+        <div class="hero-orb hero-orb--one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb--two" aria-hidden="true"></div>
+        <div class="hero__wrap personal-hero__content">
+          <p class="eyebrow">HAOYU WANG · PERSONAL WEBSITE</p>
+          <h1 class="hero__title" id="welcome-title">{{ site.title }}</h1>
+          <p class="hero__meta">{{ site.tagline }}</p>
+          <div class="hero__actions">
+            <a class="personal-button personal-button--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+            <a class="personal-button personal-button--quiet" href="{{ '/life/' | relative_url }}">A glimpse of life</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-intro" aria-labelledby="explore-title">
+        <div class="container">
+          <p class="section-kicker">A PLACE TO EXPLORE</p>
+          <h2 id="explore-title">Ideas, questions, and moments along the way.</h2>
+          <p class="home-intro__lead">This website is a growing collection of my academic interests and the experiences that shape how I see the world.</p>
+
+          <div class="path-grid">
+            <a class="path-card path-card--research" href="{{ '/research/' | relative_url }}">
+              <span class="path-card__number">01</span>
+              <div>
+                <p class="path-card__label">RESEARCH</p>
+                <h3>Questions worth pursuing</h3>
+                <p>Research interests, current work, publications, and projects will live here.</p>
+                <span class="path-card__link">Discover research <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="path-card path-card--life" href="{{ '/life/' | relative_url }}">
+              <span class="path-card__number">02</span>
+              <div>
+                <p class="path-card__label">LIFE</p>
+                <h3>The world beyond work</h3>
+                <p>Small adventures, personal notes, photographs, and things I am learning.</p>
+                <span class="path-card__link">Step into life <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

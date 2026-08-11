@@ -1,0 +1,56 @@
+# Site identity
+title: "Welcome to the Personal Website of Haoyu Wang"
+short_title: "Haoyu Wang"
+author: "Haoyu Wang"
+description: >-
+  The personal website of Haoyu Wang, featuring research interests,
+  projects, and notes from life beyond work.
+lang: en-US
+url: "https://aaron-h-wang.github.io"
+baseurl: ""
+
+# SEO
+social:
+  name: "Haoyu Wang"
+  links:
+    - "https://github.com/Aaron-H-Wang"
+    - "https://www.linkedin.com/in/haoyu-wang-46717a318/"
+
+# Navigation and homepage
+navigation:
+  - {name: "Home", link: "/"}
+  - {name: "Research", link: "/research/"}
+  - {name: "Life", link: "/life/"}
+
+tagline: "The Little Adventurous World of Haoyu"
+github_username: "Aaron-H-Wang"
+linkedin_url: "https://www.linkedin.com/in/haoyu-wang-46717a318/"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+timezone: America/New_York
+
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.babel.js
+  - sleek.jpg
+
+include:
+  - _pages
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
