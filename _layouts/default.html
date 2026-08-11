@@ -8,11 +8,9 @@ layout: compress
     {% include header.html %}
 
     <main class="site__content">
-      <section class="hero personal-hero" aria-labelledby="welcome-title">
-        <div class="hero-orb hero-orb--one" aria-hidden="true"></div>
-        <div class="hero-orb hero-orb--two" aria-hidden="true"></div>
+      <section class="hero personal-hero personal-hero--photo lazyload" data-bg="{{ '/assets/img/' | append: site.hero_img | relative_url }}" aria-labelledby="welcome-title">
         <div class="hero__wrap personal-hero__content">
-          <p class="eyebrow">HAOYU WANG · PERSONAL WEBSITE</p>
+          <p class="eyebrow">PERSONAL WEBSITE</p>
           <h1 class="hero__title" id="welcome-title">{{ site.title }}</h1>
           <p class="hero__meta">{{ site.tagline }}</p>
           <div class="hero__actions">
@@ -35,7 +33,7 @@ layout: compress
                 <p class="path-card__label">RESEARCH</p>
                 <h3>Questions worth pursuing</h3>
                 <p>Research interests, current work, publications, and projects will live here.</p>
-                <span class="path-card__link">Discover research <span aria-hidden="true">→</span></span>
+                <span class="path-card__link">Discover research <span aria-hidden="true">&rarr;</span></span>
               </div>
             </a>
 
@@ -45,7 +43,7 @@ layout: compress
                 <p class="path-card__label">LIFE</p>
                 <h3>The world beyond work</h3>
                 <p>Small adventures, personal notes, photographs, and things I am learning.</p>
-                <span class="path-card__link">Step into life <span aria-hidden="true">→</span></span>
+                <span class="path-card__link">Step into life <span aria-hidden="true">&rarr;</span></span>
               </div>
             </a>
           </div>

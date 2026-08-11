@@ -2,27 +2,23 @@
 layout: page
 title: Life
 permalink: /life/
-description: Adventures, observations, and life beyond research from Haoyu Wang.
+description: Life and photography posts by Haoyu Wang.
+category: Life
 ---
 
-<p class="page-lead">Life is the wider landscape around the work: places explored, lessons gathered, and ordinary moments worth remembering.</p>
+<p class="page-lead">Photography, adventures, observations, and moments from life beyond engineering.</p>
 
-<div class="life-grid">
-  <article class="life-tile">
-    <span aria-hidden="true">✦</span>
-    <h2>Adventures</h2>
-    <p>Travel stories, new places, and small discoveries will appear here.</p>
-  </article>
-  <article class="life-tile">
-    <span aria-hidden="true">◌</span>
-    <h2>Notes</h2>
-    <p>Reflections on books, ideas, skills, and the process of learning.</p>
-  </article>
-  <article class="life-tile">
-    <span aria-hidden="true">□</span>
-    <h2>Gallery</h2>
-    <p>A future home for photographs and visual memories.</p>
-  </article>
+{% assign category_posts = site.categories[page.category] %}
+{% if category_posts and category_posts.size > 0 %}
+<div class="post-list category-post-list" itemscope itemtype="https://schema.org/Blog">
+  {% for post in category_posts %}
+    {% include card.html %}
+  {% endfor %}
 </div>
-
-<div class="page-note">This page is a work in progress. More stories are coming soon.</div>
+{% else %}
+<div class="empty-posts">
+  <p class="section-kicker">LIFE POSTS</p>
+  <h2>The first life post is coming soon.</h2>
+  <p>Posts labeled <strong>Life</strong> will automatically appear on this page.</p>
+</div>
+{% endif %}

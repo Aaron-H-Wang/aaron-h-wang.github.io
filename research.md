@@ -2,33 +2,23 @@
 layout: page
 title: Research
 permalink: /research/
-description: Research interests, projects, and publications by Haoyu Wang.
+description: Research posts by Haoyu Wang.
+category: Research
 ---
 
-<p class="page-lead">I am currently shaping this page into a home for the questions, methods, and collaborations that guide my academic work.</p>
+<p class="page-lead">Research notes, projects, publications, and ideas from my work as an electrical engineer.</p>
 
-<div class="content-section">
-  <span class="content-section__number">01</span>
-  <div>
-    <h2>Research interests</h2>
-    <p>Research interests and focus areas will be added here. This section can include a concise overview of the problems you care about and the perspective you bring to them.</p>
-  </div>
+{% assign category_posts = site.categories[page.category] %}
+{% if category_posts and category_posts.size > 0 %}
+<div class="post-list category-post-list" itemscope itemtype="https://schema.org/Blog">
+  {% for post in category_posts %}
+    {% include card.html %}
+  {% endfor %}
 </div>
-
-<div class="content-section">
-  <span class="content-section__number">02</span>
-  <div>
-    <h2>Current work</h2>
-    <p>Ongoing projects, research experiences, and collaborations will be added here.</p>
-  </div>
+{% else %}
+<div class="empty-posts">
+  <p class="section-kicker">RESEARCH POSTS</p>
+  <h2>The first research post is coming soon.</h2>
+  <p>Posts labeled <strong>Research</strong> will automatically appear on this page.</p>
 </div>
-
-<div class="content-section">
-  <span class="content-section__number">03</span>
-  <div>
-    <h2>Publications &amp; presentations</h2>
-    <p>Publications, posters, talks, and related materials will be listed here as they become available.</p>
-  </div>
-</div>
-
-<div class="page-note">This page is a work in progress. More details are coming soon.</div>
+{% endif %}

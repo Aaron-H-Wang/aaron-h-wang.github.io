@@ -3,7 +3,8 @@
     {% assign categories = post.categories %}
     <span class="post-card__label">
       {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="label"> {{ category }} </a>
+        {% assign category_path = category | downcase | prepend: '/' | append: '/' %}
+        <a href="{{ category_path | relative_url }}" class="label">{{ category }}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span>
