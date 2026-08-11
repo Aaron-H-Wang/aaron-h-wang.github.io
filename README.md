@@ -26,3 +26,5 @@ categories:
 ```
 
 Posts labeled `Research` appear at `/research/`; posts labeled `Life` appear at `/life/`. A reusable starter is available in `_drafts/post-template.md`.
+
+For step-by-step editing and publishing instructions, see [EDITING_GUIDE.md](EDITING_GUIDE.md).

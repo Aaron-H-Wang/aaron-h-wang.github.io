@@ -10,43 +10,26 @@ layout: compress
     <main class="site__content">
       <section class="hero personal-hero personal-hero--photo lazyload" data-bg="{{ '/assets/img/' | append: site.hero_img | relative_url }}" aria-labelledby="welcome-title">
         <div class="hero__wrap personal-hero__content">
-          <p class="eyebrow">PERSONAL WEBSITE</p>
           <h1 class="hero__title" id="welcome-title">{{ site.title }}</h1>
-          <p class="hero__meta">{{ site.tagline }}</p>
-          <div class="hero__actions">
-            <a class="personal-button personal-button--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
-            <a class="personal-button personal-button--quiet" href="{{ '/life/' | relative_url }}">A glimpse of life</a>
-          </div>
+          <p class="hero__meta">Ideas, questions, and moments along the way.</p>
+          <p class="hero__description">This website is a growing collection of my academic interests and the experiences that shape how I see the world.</p>
         </div>
       </section>
 
-      <section class="home-intro" aria-labelledby="explore-title">
+      <section class="blog home-posts" aria-label="Latest posts">
         <div class="container">
-          <p class="section-kicker">A PLACE TO EXPLORE</p>
-          <h2 id="explore-title">Ideas, questions, and moments along the way.</h2>
-          <p class="home-intro__lead">This website is a growing collection of my academic interests and the experiences that shape how I see the world.</p>
-
-          <div class="path-grid">
-            <a class="path-card path-card--research" href="{{ '/research/' | relative_url }}">
-              <span class="path-card__number">01</span>
-              <div>
-                <p class="path-card__label">RESEARCH</p>
-                <h3>Questions worth pursuing</h3>
-                <p>Research interests, current work, publications, and projects will live here.</p>
-                <span class="path-card__link">Discover research <span aria-hidden="true">&rarr;</span></span>
-              </div>
-            </a>
-
-            <a class="path-card path-card--life" href="{{ '/life/' | relative_url }}">
-              <span class="path-card__number">02</span>
-              <div>
-                <p class="path-card__label">LIFE</p>
-                <h3>The world beyond work</h3>
-                <p>Small adventures, personal notes, photographs, and things I am learning.</p>
-                <span class="path-card__link">Step into life <span aria-hidden="true">&rarr;</span></span>
-              </div>
-            </a>
+          {% if site.posts.size > 0 %}
+          <div class="post-list" itemscope itemtype="https://schema.org/Blog">
+            {% for post in site.posts %}
+              {% include card.html %}
+            {% endfor %}
           </div>
+          {% else %}
+          <div class="empty-posts home-empty">
+            <h2>Posts are coming soon.</h2>
+            <p>New Research and Life stories will appear here in the original Sleek card layout.</p>
+          </div>
+          {% endif %}
         </div>
       </section>
     </main>

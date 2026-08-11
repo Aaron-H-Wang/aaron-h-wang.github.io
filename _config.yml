@@ -1,5 +1,5 @@
 # Site identity
-title: "Haoyu Wang"
+title: "Haoyu Wang's Adventurous World"
 short_title: "Haoyu Wang"
 author: "Haoyu Wang"
 description: >-
@@ -22,7 +22,6 @@ navigation:
   - {name: "Research", link: "/research/"}
   - {name: "Life", link: "/life/"}
 
-tagline: "A Little Adventurous World"
 hero_img: "posts/sleek_lg.jpg"
 github_username: "Aaron-H-Wang"
 linkedin_url: "https://www.linkedin.com/in/haoyu-wang-46717a318/"

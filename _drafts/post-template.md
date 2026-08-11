@@ -5,7 +5,7 @@ summary: "A short description shown on the category page."
 categories:
   - Research
 # Change Research to Life for a Life post.
-# featured-img: image-name
+# Optional: image: /assets/img/posts/image-name.jpg
 ---
 
 Write the post in Markdown here.
