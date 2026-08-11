@@ -10,7 +10,11 @@
     </span>
   {% endif %}
   <a href="{{ post.url | relative_url }}">
-    {% if post.image %}
+    {% if post.card-image %}
+      <figure class="post-card__thumb post-card__thumb--diagram">
+        <img src="{{ post.card-image | relative_url }}" class="post-card__image post-card__image--contain" alt="{{ post.title }}" />
+      </figure>
+    {% elsif post.image %}
       <figure class="post-card__thumb">
         <img src="{{ post.image | relative_url }}" class="post-card__image" alt="{{ post.title }}" />
       </figure>
