@@ -1,4 +1,4 @@
-# Haoyu Wang — Personal Website
+# Haoyu Wang - Personal Website
 
 Source for [aaron-h-wang.github.io](https://aaron-h-wang.github.io), built with Jekyll and adapted from the [Sleek](https://github.com/janczizikow/sleek) theme.
 
