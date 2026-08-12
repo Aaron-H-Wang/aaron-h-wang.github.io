@@ -6,21 +6,20 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
 ---
 
 <section class="about-profile">
-  <figure class="about-portrait">
-    <img src="{{ '/assets/img/profile/haoyu-wang.jpg' | relative_url }}" alt="Haoyu Wang outdoors with a camera in a geothermal landscape">
-  </figure>
-
   <div class="about-profile__copy">
     <p class="section-kicker">ECE PH.D. STUDENT · UT AUSTIN</p>
-    <h2>Engineering at the intersection of power, magnetics, and data.</h2>
-    <p>I am a Ph.D. student in Electrical and Computer Engineering at the <strong>University of Texas at Austin</strong>, where I work as a graduate research assistant in the Power Electronics and Magnetics Group.</p>
-    <p>My research explores how physical insight, automated experimentation, and data-driven methods can work together to make high-frequency power electronic systems more efficient, measurable, and easier to design.</p>
+    <p>I am a Ph.D. candidate in Electrical and Computer Engineering at the <strong>University of Texas at Austin</strong>, where I work as a graduate research assistant advised by Prof. Alex Hanson in the Power Electronics and Magnetics Group.</p>
+    <p>My research at UT Austin explores how physical insight, automated experimentation, and data-driven methods can work together to make high-frequency power electronic systems more efficient and easier to design. I am also dedicated to high-level power electronics, such as solid-state transformers, etc. </p>
     <div class="about-topics" aria-label="Research areas">
       <span>Power Electronics</span>
       <span>Power Magnetics</span>
       <span>Data-Driven Modeling</span>
     </div>
   </div>
+
+  <figure class="about-portrait">
+    <img src="{{ '/assets/img/profile/haoyu-wang.jpg' | relative_url }}" alt="Haoyu Wang outdoors with a camera in a geothermal landscape">
+  </figure>
 </section>
 
 <section class="about-section" aria-labelledby="research-focus">
@@ -33,7 +32,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
     <article class="about-focus-card">
       <span>01</span>
       <h3>High-Frequency Power Electronics</h3>
-      <p>Modeling, modulation, control, and efficiency optimization for high-frequency-link and multi-active-bridge power converters.</p>
+      <p>Modeling, modulation, control, and efficiency optimization for solid-state transformers.</p>
     </article>
     <article class="about-focus-card">
       <span>02</span>
@@ -70,7 +69,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
   <div>
     <p class="section-kicker">BACKGROUND &amp; EXPERIENCE</p>
     <h2 id="curriculum-vitae">Curriculum Vitae</h2>
-    <p>For a detailed record of my education, research experience, publications, honors, and professional activities, please see my full CV.</p>
+    <p>For a detailed record of my education and experience, please see my full CV.</p>
   </div>
   <a class="btn" href="{{ '/assets/files/Haoyu_Wang_CV.pdf' | relative_url }}" target="_blank" rel="noopener">View CV (PDF)</a>
 </section>
