@@ -14,7 +14,7 @@ tags:
 
 <p class="research-intro">Reactive power in a high-frequency link raises RMS current and loss without contributing to the commanded dc power transfer. This work measures that hidden quantity directly and closes the loop around it.</p>
 
-<p class="research-byline"><strong>Published in:</strong> <em>IEEE Journal of Emerging and Selected Topics in Industrial Electronics</em>, vol. 5, no. 3, pp. 1333–1337, July 2024. <a href="https://ieeexplore.ieee.org/document/10319663/">View on IEEE Xplore</a>.</p>
+<p class="research-byline"><strong>Authors:</strong> Haoyu Wang, Shiqi Ji, Di Mou, Wenhao Xie, Yangbin Zeng, and Zhengming Zhao.</p>
 
 <div class="research-metrics">
   <div><strong>2 loops</strong><span>decoupled active/reactive control</span></div>
@@ -64,3 +64,7 @@ The hardware-in-the-loop tests cover steady operation and transitions between po
 </div>
 
 Compared with an offline lookup table, RPOC trades some precomputed speed for adaptability. It can follow component drift and operating conditions not included during design while retaining a transparent physical objective, which is valuable in multiport systems whose power-flow combinations change over time.
+
+Published in **IEEE Journal of Emerging and Selected Topics in Industrial Electronics**, vol. 5, no. 3, pp. 1333–1337, July 2024.
+
+[Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/10319663/){: .btn }

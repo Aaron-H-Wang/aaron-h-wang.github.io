@@ -14,7 +14,7 @@ tags:
 
 <p class="research-intro">As the number of ports grows, MMAB modulation needs enough freedom to satisfy power flow, soft switching, and efficiency objectives simultaneously. This work develops a universal phase-shift (UPS) framework that scales naturally with port count.</p>
 
-<p class="research-byline"><strong>Published in:</strong> <em>IEEE Transactions on Industrial Electronics</em>, vol. 71, no. 7, pp. 7312–7321, July 2024. <a href="https://ieeexplore.ieee.org/document/10242261/">View on IEEE Xplore</a>.</p>
+<p class="research-byline"><strong>Authors:</strong> Haoyu Wang, Di Mou, Shiqi Ji, Liqiang Yuan, Yangbin Zeng, Jialin Zheng, and Zhengming Zhao.</p>
 
 <div class="research-metrics">
   <div><strong>2N−1</strong><span>independent phase-shift variables</span></div>
@@ -64,3 +64,7 @@ The large current reduction is especially significant for multiport hardware bec
 The formulation also provides a foundation for later controller designs. Objectives such as peak-current limitation, transformer flux balancing, or thermal sharing can be placed on top of the same constraint structure. UPS is therefore not only one optimized pattern; it is a systematic way to organize the feasible control space of an N-port converter.
 
 For practical implementation, this organization also separates offline derivation from online decision-making. The generalized equations can be solved in advance to construct feasible maps or used inside a real-time optimizer, depending on the available processor and response requirement. Both approaches retain the same definitions of power, ZVS, and current stress.
+
+Published in **IEEE Transactions on Industrial Electronics**, vol. 71, no. 7, pp. 7312–7321, July 2024.
+
+[Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/10242261/){: .btn }

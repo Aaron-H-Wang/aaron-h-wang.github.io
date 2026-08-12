@@ -14,7 +14,7 @@ tags:
 
 <p class="research-intro">How can the soft-switching boundaries of a multiport converter be described without rebuilding the analysis for every new port count? This work develops a unified answer for modular multi-active-bridge (MMAB) converters under single-phase-shift control.</p>
 
-<p class="research-byline"><strong>Published in:</strong> <em>IEEE Transactions on Industrial Electronics</em>, vol. 70, no. 7, pp. 6865–6875, July 2023. <a href="https://ieeexplore.ieee.org/document/9893537/">View on IEEE Xplore</a>.</p>
+<p class="research-byline"><strong>Authors:</strong> Haoyu Wang, Yangbin Zeng, Shiqi Ji, Zhengming Zhao, Liqiang Yuan, and Xin Mo.</p>
 
 <div class="research-metrics">
   <div><strong>N-port</strong><span>generalized model</span></div>
@@ -66,3 +66,7 @@ Inside the predicted region, the device voltage falls before the gate command ar
 </div>
 
 For system design, the map can be used before hardware is built to compare transformer ratios, leakage inductances, and allowable port-voltage windows. During operation, the same inequalities can support modulation selection or serve as constraints in an optimizer. Adding another active bridge changes the model dimension, but does not require inventing a new analysis method.
+
+Published in **IEEE Transactions on Industrial Electronics**, vol. 70, no. 7, pp. 6865–6875, July 2023.
+
+[Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/9893537/){: .btn }

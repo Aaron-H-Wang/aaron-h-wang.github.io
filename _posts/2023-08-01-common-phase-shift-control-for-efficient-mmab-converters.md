@@ -14,7 +14,7 @@ tags:
 
 <p class="research-intro">Multi-active-bridge converters can route power flexibly among several ports, but conventional single-phase-shift control may generate large circulating currents when port voltages or power levels are unbalanced. This work introduces common phase-shift (CPS) control to reduce that penalty.</p>
 
-<p class="research-byline"><strong>Published in:</strong> <em>IEEE Journal of Emerging and Selected Topics in Power Electronics</em>, vol. 11, no. 4, pp. 3924–3936, August 2023. <a href="https://ieeexplore.ieee.org/document/10132875/">View on IEEE Xplore</a>.</p>
+<p class="research-byline"><strong>Authors:</strong> Haoyu Wang, Shiqi Ji, Di Mou, Liqiang Yuan, Yangbin Zeng, and Zhengming Zhao.</p>
 
 <div class="research-metrics">
   <div><strong>16.55%</strong><span>maximum efficiency improvement</span></div>
@@ -64,3 +64,7 @@ The agreement between calculated and measured loss also makes the optimization i
 </div>
 
 CPS offers a useful middle ground between basic SPS and high-dimensional modulation. It captures a large portion of the available efficiency improvement while retaining a compact control structure, making it attractive when predictable real-time execution is as important as the absolute optimum.
+
+Published in **IEEE Journal of Emerging and Selected Topics in Power Electronics**, vol. 11, no. 4, pp. 3924–3936, August 2023.
+
+[Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/10132875/){: .btn }
