@@ -66,7 +66,7 @@ layout: compress
 
   <main class="site__content">
     <div class="container">
-      <article class="post-content" itemprop="articleBody">
+      <article class="post-content{% if page.categories contains 'Research' or page.tags contains 'Research' %} post-content--research{% elsif page.categories contains 'Life' or page.tags contains 'Life' %} post-content--life{% elsif page.categories contains 'News' or page.tags contains 'News' %} post-content--news{% endif %}" itemprop="articleBody">
 
         {{ content }}
 

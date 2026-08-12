@@ -209,6 +209,9 @@ a { color: var(--sky-600); }
 .research-table th { background: var(--ink-900); color: #fff; }
 .research-table__highlight { background: var(--sky-100); color: var(--ink-900); }
 .research-takeaway { background: linear-gradient(135deg, var(--sky-50), var(--sky-100)); border: 1px solid var(--line); border-radius: 0.9rem; margin: 2rem 0; padding: 1.35rem 1.5rem; }
+.post-content--research .research-takeaway { background: linear-gradient(135deg, #e9f8ff, #cceeff); border-color: #b9e2f5; }
+.post-content--life .research-takeaway { background: linear-gradient(135deg, #edf9ef, #d4f0dc); border-color: #bfdfc8; }
+.post-content--news .research-takeaway { background: linear-gradient(135deg, #fff9df, #ffefb8); border-color: #eadb95; }
 .research-takeaway p { margin: 0; }
 
 .publication-section { margin: 0 0 4rem; }
