@@ -30,7 +30,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
 
   <div class="education-list">
     <article class="education-item">
-      <div class="education-item__period">Jun. 2024 - Present</div>
+      <div class="education-item__period">Jun. 2024 - May 2027</div>
       <div class="education-item__body">
         <div class="education-item__school">
           <h3>University of Texas at Austin</h3>
