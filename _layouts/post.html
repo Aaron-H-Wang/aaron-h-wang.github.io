@@ -75,7 +75,7 @@ layout: compress
         {{ content }}
 
       </article>
-      <div class="post-content controls__inner">
+      <div class="post-content controls__inner" id="post-context-navigation" data-current-url="{{ page.url | relative_url }}">
         <div class="controls__item prev">
           {% if page.previous.url %}
 

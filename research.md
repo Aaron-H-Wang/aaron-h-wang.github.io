@@ -10,7 +10,7 @@ category: Research
 
 {% assign category_posts = site.categories[page.category] %}
 {% if category_posts and category_posts.size > 0 %}
-<div class="post-list category-post-list" itemscope itemtype="https://schema.org/Blog">
+<div class="post-list category-post-list" data-post-context="research" itemscope itemtype="https://schema.org/Blog">
   {% for post in category_posts %}
     {% include card.html %}
   {% endfor %}

@@ -40,7 +40,7 @@ layout: compress
             {% endif %}
           </div>
           {% if site.posts.size > 0 %}
-          <div class="post-list recent-posts__track" id="recent-posts-track" tabindex="0" itemscope itemtype="https://schema.org/Blog" aria-label="Recent posts. Scroll horizontally to browse.">
+          <div class="post-list recent-posts__track" id="recent-posts-track" data-post-context="recent" tabindex="0" itemscope itemtype="https://schema.org/Blog" aria-label="Recent posts. Scroll horizontally to browse.">
             {% for post in site.posts %}
               {% include card.html %}
             {% endfor %}
