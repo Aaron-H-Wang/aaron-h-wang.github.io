@@ -6,7 +6,7 @@ description: News and updates from Haoyu Wang.
 category: News
 ---
 
-<p class="page-lead">Recent milestones, announcements, and updates from my academic journey and life beyond the lab.</p>
+<p class="page-lead">Recent milestones, announcements, and updates from my academic and life.</p>
 
 {% assign category_posts = site.categories[page.category] %}
 {% if category_posts and category_posts.size > 0 %}
@@ -19,6 +19,6 @@ category: News
 <div class="empty-posts">
   <p class="section-kicker">NEWS &amp; UPDATES</p>
   <h2>The first news post is coming soon.</h2>
-  <p>Posts labeled <strong>News</strong> will automatically appear on this page.</p>
+
 </div>
 {% endif %}

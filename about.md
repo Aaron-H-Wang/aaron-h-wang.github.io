@@ -8,7 +8,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
 <section class="about-profile">
   <div class="about-profile__copy">
     <p class="section-kicker">ECE PH.D. CANDIDATE · UT AUSTIN</p>
-    <p>I am a Ph.D. candidate in Electrical and Computer Engineering at the University of Texas at Austin, where I work as a graduate research assistant advised by Prof. Alex Hanson in the Power Electronics and Magnetics Group.</p>
+    <p>I am a Ph.D. candidate in Electrical and Computer Engineering at the University of Texas at Austin, where I conduct research with Prof. Alex Hanson in the Power Electronics and Magnetics Group.</p>
     <p>My research at UT Austin explores how automated experimentation and data-driven methods can work together to make high-frequency power electronic systems more efficient and easier to design. I am also dedicated to high-level power electronics, such as solid-state transformers, etc. </p>
     <div class="about-topics" aria-label="Research areas">
       <span>Power Electronics</span>
@@ -32,36 +32,44 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
     <article class="education-item">
       <div class="education-item__period">Jun. 2024 - Present</div>
       <div class="education-item__body">
-        <h3>University of Texas at Austin</h3>
+        <div class="education-item__school">
+          <h3>University of Texas at Austin</h3>
+          <span>Austin, Texas, USA</span>
+        </div>
         <p class="education-item__degree">Ph.D. in Electrical and Computer Engineering</p>
-        <p>Austin, Texas, USA · Graduate Research Assistant in the Power Electronics and Magnetics Group · Teaching Assistant for ECE 462 Power Electronics Laboratory</p>
       </div>
     </article>
 
     <article class="education-item">
       <div class="education-item__period">Aug. 2023 - May 2024</div>
       <div class="education-item__body">
-        <h3>Columbia University</h3>
+        <div class="education-item__school">
+          <h3>Columbia University</h3>
+          <span>New York, New York, USA</span>
+        </div>
         <p class="education-item__degree">Ph.D. in Electrical Engineering</p>
-        <p>New York, New York, USA · Teaching Assistant for ELEN E4361 Power Electronics</p>
       </div>
     </article>
 
     <article class="education-item">
       <div class="education-item__period">Aug. 2020 - Jun. 2023</div>
       <div class="education-item__body">
-        <h3>Tsinghua University</h3>
+        <div class="education-item__school">
+          <h3>Tsinghua University</h3>
+          <span>Beijing, China</span>
+        </div>
         <p class="education-item__degree">M.S. in Electrical Engineering</p>
-        <p>Beijing, China · Thesis: <em>Efficiency Optimization and Decoupling Control for High-Frequency-Link-Based Electric Energy Routers</em></p>
       </div>
     </article>
 
     <article class="education-item">
       <div class="education-item__period">Sept. 2016 - Jun. 2020</div>
       <div class="education-item__body">
-        <h3>Shanghai Jiao Tong University</h3>
+        <div class="education-item__school">
+          <h3>Shanghai Jiao Tong University</h3>
+          <span>Shanghai, China</span>
+        </div>
         <p class="education-item__degree">B.S. in Electrical Engineering and Automation</p>
-        <p>Shanghai, China · Thesis: <em>Ceaseless Modulation and Control Strategies of MMC-SST Under MVDC Fault</em></p>
       </div>
     </article>
   </div>
@@ -114,7 +122,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
   <div>
     <p class="section-kicker">BACKGROUND &amp; EXPERIENCE</p>
     <h2 id="curriculum-vitae">Curriculum Vitae</h2>
-    <p>For a detailed record of my education and experience, please see my full CV.</p>
+    <p>For a detailed record of my experience, please see my full CV.</p>
   </div>
   <a class="btn" href="{{ '/assets/files/Haoyu_Wang_CV.pdf' | relative_url }}" target="_blank" rel="noopener">View CV (PDF)</a>
 </section>

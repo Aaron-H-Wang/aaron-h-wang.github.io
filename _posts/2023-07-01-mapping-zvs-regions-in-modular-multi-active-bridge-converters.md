@@ -26,6 +26,8 @@ tags:
 
 An MMAB converter links several active bridges through a common high-frequency transformer. Zero-voltage switching (ZVS) is essential for efficient operation, but its boundary depends on port voltages, transferred powers, leakage inductances, and relative phase shifts. Direct time-domain case analysis quickly becomes unwieldy as the number of ports grows.
 
+This is more than a mathematical inconvenience. When a switching device turns on before its output capacitance has discharged, part of the stored energy is dissipated during every transition. At high switching frequency, that loss raises temperature, limits power density, and can dominate light-load efficiency. Designers therefore need to know not only whether a nominal point achieves ZVS, but how much margin remains as voltages and port powers change.
+
 <figure class="research-figure">
   <img src="{{ '/assets/img/posts/mmab-zvs-topology.png' | relative_url }}" alt="Generalized N-port modular multi-active-bridge converter topology">
   <figcaption>Generalized MMAB structure used to derive a port-scalable ZVS model.</figcaption>
@@ -37,6 +39,12 @@ The paper maps every switching condition into a compact phase-shift description.
 
 This separation between the <em>full</em> and <em>constrained</em> regions also clarifies why a converter may lose ZVS even when an unconstrained phase-shift solution appears feasible: the required combination may conflict with the demanded port powers.
 
+## How the map is constructed
+
+The derivation starts from the piecewise-linear transformer currents created by the bridge voltages. Their values at each switching instant determine the direction of device current and, consequently, whether the next semiconductor transition can discharge the relevant output capacitance. Expressing those current signs with normalized phase shifts turns a collection of waveform cases into algebraic boundaries.
+
+Power-balance equations are then superimposed on the switching boundaries. This second step matters because phase shifts are not freely selectable during operation: they must deliver the requested power at every port. The intersection of the ZVS inequalities with the power constraints yields a realizable operating map that can be evaluated without rerunning a detailed switching simulation.
+
 <figure class="research-figure">
   <img src="{{ '/assets/img/posts/mmab-zvs-prototype.png' | relative_url }}" alt="Three-port MMAB converter experimental prototype">
   <figcaption>Three-port laboratory prototype used to validate the analytical boundaries.</figcaption>
@@ -45,6 +53,8 @@ This separation between the <em>full</em> and <em>constrained</em> regions also 
 ## Experimental validation
 
 A three-port prototype was tested across multiple voltage ratios and load levels. Measured switching waveforms agree with the predicted boundary transitions and show how voltage mismatch narrows the usable ZVS region, especially at light load.
+
+Inside the predicted region, the device voltage falls before the gate command arrives and the transition occurs with little voltage-current overlap. Close to or outside the boundary, residual voltage becomes visible in the measured waveform. This agreement verifies both the sign-based analytical model and the constrained-region construction.
 
 <figure class="research-figure">
   <img src="{{ '/assets/img/posts/mmab-zvs-waveforms.png' | relative_url }}" alt="Experimental switching waveforms demonstrating ZVS operation">
@@ -55,3 +65,4 @@ A three-port prototype was tested across multiple voltage ratios and load levels
   <strong>Takeaway.</strong> The model turns a port-by-port switching problem into a scalable design tool, helping designers select voltage ratios and operating points that preserve soft switching over the intended power range.
 </div>
 
+For system design, the map can be used before hardware is built to compare transformer ratios, leakage inductances, and allowable port-voltage windows. During operation, the same inequalities can support modulation selection or serve as constraints in an optimizer. Adding another active bridge changes the model dimension, but does not require inventing a new analysis method.

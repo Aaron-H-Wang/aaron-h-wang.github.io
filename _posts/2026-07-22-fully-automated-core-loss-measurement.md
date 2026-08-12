@@ -65,6 +65,8 @@ For Fair-Rite 78, the system swept 33 frequencies from 60 kHz to 1 MHz and evalu
 
 That is approximately **4,000 times faster** than a skilled operator taking one manual point per minute, and about **450 times faster** than a previously reported automated resonant platform. Rapid acquisition also limits device self-heating, helping keep material conditions consistent throughout a sweep.
 
+High throughput changes what can be studied. Instead of collecting only a few representative points, an engineer can map a dense loss surface, repeat a sweep to quantify variation, or gather enough consistent data for regression and machine-learning models. Because excitation search and signal extraction use the same automated sequence, comparisons among materials are less dependent on operator timing and oscilloscope settings.
+
 <figure class="research-figure research-figure--wide">
   <img src="{{ '/assets/img/posts/automated-core-loss-speed.png' | relative_url }}" alt="Dense core-loss map for Fair-Rite 78 acquired from 60 kHz to 1 MHz in 20 seconds.">
   <figcaption>Fig. 4. A dense 1,320-point loss map acquired in a single 20-second automated run.</figcaption>
