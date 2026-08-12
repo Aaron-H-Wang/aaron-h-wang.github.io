@@ -45,10 +45,9 @@ a { color: var(--sky-600); }
   color: var(--ink-900);
   cursor: pointer;
   display: flex;
-  gap: 0.55rem;
-  padding: 0.938rem 0;
-  text-align: left;
-  width: 100%;
+  justify-content: center;
+  padding: 0.938rem;
+  width: auto;
 }
 .header__search-button svg,
 .site-search__field svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
@@ -131,7 +130,6 @@ a { color: var(--sky-600); }
     position: relative;
     width: auto;
   }
-  .header__search-button span { clip: rect(0 0 0 0); clip-path: inset(50%); height: 1px; overflow: hidden; position: absolute; white-space: nowrap; width: 1px; }
   .header__search-button::after { background: var(--sky-400); bottom: 0; content: ""; height: 3px; left: 0; position: absolute; transform: scaleX(0); transition: transform 0.2s ease-in-out; width: 100%; }
   .header__search-button:hover::after,
   .header__search-button:focus::after { transform: scaleX(1); }
