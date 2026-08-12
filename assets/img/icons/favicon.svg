@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="18" fill="#e4f4ff"/>
-  <path d="M13 17v30h7V35h10v12h7V17h-7v11.5H20V17h-7Zm27 0 6 30h6l7-30h-7l-3 18.5L46 17h-6Z" fill="#17324a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Overlapping AA monogram</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <path d="M5 54 23 10 41 54M12 38h22" stroke="#17324a"/>
+    <path d="M23 54 41 10 59 54M30 38h22" stroke="#55b8ec" opacity=".92"/>
+  </g>
 </svg>

@@ -50,15 +50,19 @@ layout: compress
       <h1 class="hero__title">{{ page.title }}</h1>
       <p class="hero__meta">
         <span>
-          <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
+          <time>{{ page.date | date: "%b %-d, %Y" }}</time>&nbsp;&middot;
         </span>
         <span>
+          {% if page.photo-essay %}
+            Photo essay
+          {% else %}
             {% assign words = content | number_of_words %}
-              {% if words < 360 %}
-                1 min
-              {% else %}
-                {{ words | divided_by:180 }} mins
+            {% if words < 360 %}
+              1 min
+            {% else %}
+              {{ words | divided_by:180 }} mins
             {% endif %} read
+          {% endif %}
         </span>
       </p>
     </div>

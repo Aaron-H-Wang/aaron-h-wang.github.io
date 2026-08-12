@@ -149,16 +149,39 @@ a { color: var(--sky-600); }
 
 .hero--small { background: linear-gradient(120deg, var(--ink-900), #2c7faa); }
 .hero--small::before { background: linear-gradient(90deg, rgba(23,50,74,.2), rgba(98,186,240,.15)); }
-.post-hero { background-image: none; }
+.post-hero {
+  align-items: center;
+  background-image: none;
+  display: flex;
+  height: auto;
+  min-height: 0;
+  padding: 2.75rem 0;
+}
 .post-hero::before { background: transparent; }
 .post-hero--research { background: linear-gradient(135deg, #e9f8ff, #cceeff); }
 .post-hero--life { background: linear-gradient(135deg, #edf9ef, #d4f0dc); }
 .post-hero--news { background: linear-gradient(135deg, #fff9df, #ffefb8); }
-.post-hero .hero__title { color: var(--ink-900); }
+.post-hero .hero__wrap {
+  left: auto;
+  max-width: 57rem;
+  padding: 0 1.25rem;
+  position: relative;
+  top: auto;
+  transform: none;
+}
+.post-hero .hero__title {
+  color: var(--ink-900);
+  line-height: 1.16;
+  margin-bottom: 0.55rem;
+  padding: 0;
+}
 .post-hero .hero__meta { color: rgba(23, 50, 74, 0.72); }
 .post-hero .label { border-color: rgba(23, 50, 74, 0.3); color: var(--ink-700); }
 .post-hero .label:hover,
 .post-hero .label:focus { background: rgba(255,255,255,.68); border-color: var(--sky-600); color: var(--sky-600); }
+@media (min-width: 62em) {
+  .post-hero { padding: 6rem 0 2.75rem; }
+}
 .page-content { max-width: 57rem; }
 .page-content--posts { max-width: none; }
 .page-lead { color: var(--ink-700); font-size: clamp(1.25rem, 2.4vw, 1.65rem); line-height: 1.7; margin-bottom: 3.5rem; }
@@ -213,6 +236,41 @@ a { color: var(--sky-600); }
 .post-content--life .research-takeaway { background: linear-gradient(135deg, #edf9ef, #d4f0dc); border-color: #bfdfc8; }
 .post-content--news .research-takeaway { background: linear-gradient(135deg, #fff9df, #ffefb8); border-color: #eadb95; }
 .research-takeaway p { margin: 0; }
+
+/* Hawaii photo essay */
+.island-journal { margin: 5rem 0 6.5rem; }
+.island-journal__heading { margin: 0 auto 2.3rem; max-width: 42rem; text-align: center; }
+.island-journal__heading .section-kicker { margin-bottom: 0.65rem; }
+.island-journal__heading h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.25rem, 6vw, 4.25rem); font-weight: 400; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+.island-journal__heading > p:last-child { color: #60778b; font-size: 0.98rem; line-height: 1.7; margin: 0 auto; max-width: 34rem; }
+.island-gallery { margin-left: 50%; transform: translateX(-50%); width: min(68rem, calc(100vw - 2rem)); }
+.island-gallery__wall { column-count: 2; column-gap: clamp(1rem, 3vw, 2rem); margin-top: clamp(1.2rem, 3vw, 2rem); }
+.photo-frame {
+  background: #fff;
+  border: 1px solid rgba(37, 63, 82, 0.09);
+  box-shadow: 0 14px 35px rgba(35, 61, 78, 0.13), 0 2px 7px rgba(35, 61, 78, 0.08);
+  break-inside: avoid;
+  margin: 0 0 clamp(1.2rem, 3vw, 2rem);
+  padding: clamp(0.5rem, 1.3vw, 0.85rem) clamp(0.5rem, 1.3vw, 0.85rem) clamp(0.8rem, 2vw, 1.25rem);
+  position: relative;
+}
+.photo-frame img { background: #fff; display: block; height: auto; width: 100%; }
+.photo-frame--hero { margin: 0 auto; max-width: 62rem; padding-bottom: clamp(0.9rem, 2.2vw, 1.5rem); }
+.island-gallery__wall .photo-frame:nth-child(4n+1) { transform: rotate(-0.35deg); }
+.island-gallery__wall .photo-frame:nth-child(4n+2) { transform: rotate(0.28deg); }
+.island-gallery__wall .photo-frame:nth-child(4n+3) { transform: rotate(0.16deg); }
+.island-gallery__wall .photo-frame:nth-child(4n) { transform: rotate(-0.22deg); }
+.island-gallery__wall--three { column-count: 3; }
+.photo-frame--portrait { margin-left: auto; margin-right: auto; max-width: 24rem; }
+.hawaii-closing { color: #60778b; font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; font-style: italic; line-height: 1.8; margin: 1rem auto 2rem; max-width: 38rem; text-align: center; }
+
+@media (max-width: 47.99em) {
+  .island-journal { margin: 4rem 0 5rem; }
+  .island-gallery { width: min(100%, calc(100vw - 1.4rem)); }
+  .island-gallery__wall,
+  .island-gallery__wall--three { column-count: 1; }
+  .island-gallery__wall .photo-frame { transform: none; }
+}
 
 .publication-section { margin: 0 0 4rem; }
 .publication-heading {
