@@ -19,7 +19,13 @@ layout: compress
 
 {% include header.html %}
 
-  {% if page.image %}
+  {% if page.categories contains "Research" or page.tags contains "Research" %}
+  <div class="hero post-hero post-hero--research">
+  {% elsif page.categories contains "Life" or page.tags contains "Life" %}
+  <div class="hero post-hero post-hero--life">
+  {% elsif page.categories contains "News" or page.tags contains "News" %}
+  <div class="hero post-hero post-hero--news">
+  {% elsif page.image %}
   <div class="hero lazyload" data-bg="{{ page.image | relative_url }}">
   {% elsif page.featured-img %}
   <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">

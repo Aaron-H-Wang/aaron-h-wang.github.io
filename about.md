@@ -22,6 +22,51 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
   </figure>
 </section>
 
+<section class="about-section about-education" aria-labelledby="education">
+  <div class="about-section__heading">
+    <p class="section-kicker">ACADEMIC JOURNEY</p>
+    <h2 id="education">Education</h2>
+  </div>
+
+  <div class="education-list">
+    <article class="education-item">
+      <div class="education-item__period">Jun. 2024 - Present</div>
+      <div class="education-item__body">
+        <h3>University of Texas at Austin</h3>
+        <p class="education-item__degree">Ph.D. in Electrical and Computer Engineering</p>
+        <p>Austin, Texas, USA · Graduate Research Assistant in the Power Electronics and Magnetics Group · Teaching Assistant for ECE 462 Power Electronics Laboratory</p>
+      </div>
+    </article>
+
+    <article class="education-item">
+      <div class="education-item__period">Aug. 2023 - May 2024</div>
+      <div class="education-item__body">
+        <h3>Columbia University</h3>
+        <p class="education-item__degree">Ph.D. in Electrical Engineering</p>
+        <p>New York, New York, USA · Teaching Assistant for ELEN E4361 Power Electronics</p>
+      </div>
+    </article>
+
+    <article class="education-item">
+      <div class="education-item__period">Aug. 2020 - Jun. 2023</div>
+      <div class="education-item__body">
+        <h3>Tsinghua University</h3>
+        <p class="education-item__degree">M.S. in Electrical Engineering</p>
+        <p>Beijing, China · Thesis: <em>Efficiency Optimization and Decoupling Control for High-Frequency-Link-Based Electric Energy Routers</em></p>
+      </div>
+    </article>
+
+    <article class="education-item">
+      <div class="education-item__period">Sept. 2016 - Jun. 2020</div>
+      <div class="education-item__body">
+        <h3>Shanghai Jiao Tong University</h3>
+        <p class="education-item__degree">B.S. in Electrical Engineering and Automation</p>
+        <p>Shanghai, China · Thesis: <em>Ceaseless Modulation and Control Strategies of MMC-SST Under MVDC Fault</em></p>
+      </div>
+    </article>
+  </div>
+</section>
+
 <section class="about-section" aria-labelledby="research-focus">
   <div class="about-section__heading">
     <p class="section-kicker">WHAT I WORK ON</p>

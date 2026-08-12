@@ -149,6 +149,16 @@ a { color: var(--sky-600); }
 
 .hero--small { background: linear-gradient(120deg, var(--ink-900), #2c7faa); }
 .hero--small::before { background: linear-gradient(90deg, rgba(23,50,74,.2), rgba(98,186,240,.15)); }
+.post-hero { background-image: none; }
+.post-hero::before { background: transparent; }
+.post-hero--research { background: linear-gradient(135deg, #e9f8ff, #cceeff); }
+.post-hero--life { background: linear-gradient(135deg, #edf9ef, #d4f0dc); }
+.post-hero--news { background: linear-gradient(135deg, #fff9df, #ffefb8); }
+.post-hero .hero__title { color: var(--ink-900); }
+.post-hero .hero__meta { color: rgba(23, 50, 74, 0.72); }
+.post-hero .label { border-color: rgba(23, 50, 74, 0.3); color: var(--ink-700); }
+.post-hero .label:hover,
+.post-hero .label:focus { background: rgba(255,255,255,.68); border-color: var(--sky-600); color: var(--sky-600); }
 .page-content { max-width: 57rem; }
 .page-content--posts { max-width: none; }
 .page-lead { color: var(--ink-700); font-size: clamp(1.25rem, 2.4vw, 1.65rem); line-height: 1.7; margin-bottom: 3.5rem; }
@@ -282,6 +292,18 @@ a { color: var(--sky-600); }
 .about-section__heading { align-items: end; display: flex; justify-content: space-between; margin-bottom: 2rem; }
 .about-section__heading .section-kicker { margin: 0; }
 .about-section__heading h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin: 0; }
+.education-list { border-top: 1px solid var(--line); }
+.education-item {
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 1rem 2rem;
+  grid-template-columns: minmax(9rem, 0.38fr) minmax(0, 1fr);
+  padding: 1.6rem 0;
+}
+.education-item__period { color: var(--sky-600); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.03em; padding-top: 0.2rem; }
+.education-item h3 { font-size: 1.18rem; margin: 0 0 0.35rem; }
+.education-item__degree { color: var(--ink-900); font-weight: 700; margin-bottom: 0.45rem; }
+.education-item__body p:last-child { color: #60778b; font-size: 0.88rem; line-height: 1.65; margin-bottom: 0; }
 .about-focus-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .about-focus-card { background: var(--sky-50); border: 1px solid var(--line); border-radius: 1rem; padding: 1.5rem; }
 .about-focus-card > span { color: var(--sky-600); font-family: Georgia, serif; font-size: 0.82rem; }
@@ -317,6 +339,7 @@ a { color: var(--sky-600); }
   .about-profile, .about-life__content { grid-template-columns: 1fr; }
   .about-portrait { justify-self: center; margin: 0 auto; max-width: 18rem; width: 100%; }
   .about-focus-grid { grid-template-columns: 1fr; }
+  .education-item { gap: 0.45rem; grid-template-columns: 1fr; }
   .about-section__heading { align-items: flex-start; flex-direction: column; gap: 0.35rem; }
   .about-cv { align-items: flex-start; flex-direction: column; }
   .home-posts { padding: 3.5rem 0 4rem; }

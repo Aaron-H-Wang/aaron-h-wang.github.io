@@ -22,6 +22,7 @@ navigation:
   - {name: "Publication", link: "/publication/"}
   - {name: "Research", link: "/research/"}
   - {name: "Life", link: "/life/"}
+  - {name: "News", link: "/news/"}
 
 hero_img: "honolulu-home.jpg"
 github_username: "Aaron-H-Wang"
