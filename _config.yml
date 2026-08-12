@@ -23,7 +23,7 @@ navigation:
   - {name: "Research", link: "/research/"}
   - {name: "Life", link: "/life/"}
 
-hero_img: "posts/sleek_lg.jpg"
+hero_img: "honolulu-home.jpg"
 github_username: "Aaron-H-Wang"
 linkedin_url: "https://www.linkedin.com/in/haoyu-wang-46717a318/"
 

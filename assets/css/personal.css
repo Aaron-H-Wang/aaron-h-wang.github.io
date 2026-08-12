@@ -39,7 +39,7 @@ a { color: var(--sky-600); }
 .personal-hero {
   align-items: center;
   background-color: var(--ink-900);
-  background-position: center;
+  background-position: 50% 48%;
   background-size: cover;
   display: flex;
   min-height: 42rem;
@@ -247,7 +247,7 @@ a { color: var(--sky-600); }
 
 @media (max-width: 47.99em) {
   .header__home { font-size: 0.9rem; }
-  .personal-hero { min-height: 36rem; }
+  .personal-hero { background-position: 66% 50%; min-height: 36rem; }
   .life-grid { grid-template-columns: 1fr; }
   .personal-hero .hero__description { font-size: 0.95rem; }
   .research-intro { font-size: 1.12rem; }
