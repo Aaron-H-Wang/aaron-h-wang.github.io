@@ -30,10 +30,10 @@ layout: compress
             {% if site.posts.size > 1 %}
             <div class="recent-posts__controls" aria-label="Recent Posts navigation">
               <button class="recent-posts__button recent-posts__button--previous" type="button" aria-label="Show previous posts" aria-controls="recent-posts-track">
-                <span aria-hidden="true">&larr;</span>
+                <span class="recent-posts__arrow recent-posts__arrow--previous" aria-hidden="true"></span>
               </button>
               <button class="recent-posts__button recent-posts__button--next" type="button" aria-label="Show next posts" aria-controls="recent-posts-track">
-                <span aria-hidden="true">&rarr;</span>
+                <span class="recent-posts__arrow recent-posts__arrow--next" aria-hidden="true"></span>
               </button>
             </div>
             {% endif %}
@@ -47,7 +47,7 @@ layout: compress
           {% else %}
           <div class="empty-posts home-empty">
             <h2>Posts are coming soon.</h2>
-            <p>New Research and Life stories will appear here in the original Sleek card layout.</p>
+            <p>New Research and Life stories will appear here.</p>
           </div>
           {% endif %}
         </div>
