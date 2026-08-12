@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Reactive-Power Optimal Control for MMAB Converters"
-date: 2024-07-01
-card-image: /assets/img/posts/mmab-rpoc-control.png
+date: 2024-08-01
+card-image: /assets/img/posts/mmab-rpoc-platform.png
 summary: "A high-frequency-link controller decouples active and reactive power, then minimizes circulating current online without relying on detailed converter parameters."
 categories: Research
 tags:

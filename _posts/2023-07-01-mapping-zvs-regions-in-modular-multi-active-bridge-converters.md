@@ -2,7 +2,7 @@
 layout: post
 title: "Mapping ZVS Operating Regions in Modular Multi-Active-Bridge Converters"
 date: 2023-07-01
-card-image: /assets/img/posts/mmab-zvs-efficiency.png
+card-image: /assets/img/posts/mmab-zvs-prototype.png
 summary: "A scalable analytical model reveals the complete and constrained zero-voltage-switching regions of an N-port MMAB converter under single-phase-shift control."
 categories: Research
 tags:

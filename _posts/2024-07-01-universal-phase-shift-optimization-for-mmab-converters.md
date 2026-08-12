@@ -2,7 +2,7 @@
 layout: post
 title: "Universal Phase-Shift Optimization for MMAB Converters"
 date: 2024-07-01
-card-image: /assets/img/posts/mmab-ups-efficiency.png
+card-image: /assets/img/posts/mmab-ups-prototype.png
 summary: "A scalable universal phase-shift scheme coordinates all bridge legs to achieve full ZVS and minimize RMS current in an N-port MMAB converter."
 categories: Research
 tags:

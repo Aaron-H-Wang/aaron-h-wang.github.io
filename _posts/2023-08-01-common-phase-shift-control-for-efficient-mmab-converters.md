@@ -2,7 +2,7 @@
 layout: post
 title: "Common Phase-Shift Control for Efficient MMAB Converters"
 date: 2023-08-01
-card-image: /assets/img/posts/mmab-cps-efficiency.png
+card-image: /assets/img/posts/mmab-cps-prototype.png
 summary: "Common phase-shift control adds one coordinated degree of freedom to reduce circulating current and converter loss while retaining the required multiport power flow."
 categories: Research
 tags:

@@ -57,6 +57,18 @@ a { color: var(--sky-600); }
 }
 .personal-hero .hero__meta { color: #fff; font-size: clamp(1.15rem, 2.4vw, 1.6rem); font-weight: 600; margin-bottom: 0.7rem; }
 .personal-hero .hero__description { color: rgba(255,255,255,.88); font-size: 1rem; line-height: 1.7; margin: 0 auto; max-width: 45rem; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; margin-top: 2.2rem; }
+.personal-button {
+  border: 1px solid var(--sky-600);
+  border-radius: 999px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.85rem 1.4rem;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+.personal-button:hover { border-bottom: 1px solid var(--sky-600); color: #fff; transform: translateY(-2px); }
+.personal-button--primary { background: var(--sky-600); color: #fff; box-shadow: 0 10px 24px rgba(38,139,199,.22); }
+.personal-button--quiet { background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.8); color: #fff; }
 .section-kicker {
   color: var(--sky-600);
   font-size: 0.72rem;
