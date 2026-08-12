@@ -20,10 +20,26 @@ layout: compress
         </div>
       </section>
 
-      <section class="blog home-posts" aria-label="Latest posts">
+      <section class="blog home-posts" aria-labelledby="recent-posts-title">
         <div class="container">
+          <div class="home-posts__header">
+            <div>
+              <p class="section-kicker">LATEST STORIES</p>
+              <h2 id="recent-posts-title">Recent Posts</h2>
+            </div>
+            {% if site.posts.size > 1 %}
+            <div class="recent-posts__controls" aria-label="Recent Posts navigation">
+              <button class="recent-posts__button recent-posts__button--previous" type="button" aria-label="Show previous posts" aria-controls="recent-posts-track">
+                <span aria-hidden="true">&larr;</span>
+              </button>
+              <button class="recent-posts__button recent-posts__button--next" type="button" aria-label="Show next posts" aria-controls="recent-posts-track">
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+            </div>
+            {% endif %}
+          </div>
           {% if site.posts.size > 0 %}
-          <div class="post-list" itemscope itemtype="https://schema.org/Blog">
+          <div class="post-list recent-posts__track" id="recent-posts-track" tabindex="0" itemscope itemtype="https://schema.org/Blog" aria-label="Recent posts. Scroll horizontally to browse.">
             {% for post in site.posts %}
               {% include card.html %}
             {% endfor %}
@@ -39,5 +55,6 @@ layout: compress
     </main>
 
     {% include footer.html %}
+    <script src="{{ '/assets/js/recent-posts.js' | relative_url }}" defer></script>
   </body>
 </html>

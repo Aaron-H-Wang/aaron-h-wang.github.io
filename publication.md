@@ -5,7 +5,7 @@ permalink: /publication/
 description: Journal and conference publications by Haoyu Wang.
 ---
 
-<p class="page-lead">Peer-reviewed work in power electronics, magnetics, and data-driven methods.</p>
+<p class="page-lead">Peer-reviewed papers that are published or to be published.</p>
 
 <section class="publication-section" aria-labelledby="journal-papers">
   <div class="publication-heading">

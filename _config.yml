@@ -26,6 +26,7 @@ navigation:
 hero_img: "honolulu-home.jpg"
 github_username: "Aaron-H-Wang"
 linkedin_url: "https://www.linkedin.com/in/haoyu-wang-46717a318/"
+email: "wanghaoyu@utexas.edu"
 
 # Build settings
 markdown: kramdown

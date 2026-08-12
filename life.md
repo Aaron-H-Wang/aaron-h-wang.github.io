@@ -19,6 +19,5 @@ category: Life
 <div class="empty-posts">
   <p class="section-kicker">LIFE POSTS</p>
   <h2>The first life post is coming soon.</h2>
-  <p>Posts labeled <strong>Life</strong> will automatically appear on this page.</p>
 </div>
 {% endif %}
