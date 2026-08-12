@@ -42,8 +42,6 @@
     drag.moved = false;
     drag.startX = event.clientX;
     drag.startScroll = track.scrollLeft;
-    track.classList.add('is-dragging');
-    track.setPointerCapture(event.pointerId);
   });
 
   track.addEventListener('dragstart', function (event) {
@@ -53,7 +51,12 @@
   track.addEventListener('pointermove', function (event) {
     if (!drag.active) return;
     var distance = event.clientX - drag.startX;
-    if (Math.abs(distance) > 5) drag.moved = true;
+    if (Math.abs(distance) > 5 && !drag.moved) {
+      drag.moved = true;
+      track.classList.add('is-dragging');
+      track.setPointerCapture(event.pointerId);
+    }
+    if (!drag.moved) return;
     track.scrollLeft = drag.startScroll - distance;
   });
 
