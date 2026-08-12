@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Universal Phase-Shift Optimization for MMAB Converters"
+date: 2024-07-01
+card-image: /assets/img/posts/mmab-ups-efficiency.png
+summary: "A scalable universal phase-shift scheme coordinates all bridge legs to achieve full ZVS and minimize RMS current in an N-port MMAB converter."
+categories: Research
+tags:
+  - Research
+  - Power Electronics
+  - MMAB Converter
+  - Modulation
+---
+
+<p class="research-intro">As the number of ports grows, MMAB modulation needs enough freedom to satisfy power flow, soft switching, and efficiency objectives simultaneously. This work develops a universal phase-shift (UPS) framework that scales naturally with port count.</p>
+
+<p class="research-byline"><strong>Published in:</strong> <em>IEEE Transactions on Industrial Electronics</em>, vol. 71, no. 7, pp. 7312–7321, July 2024. <a href="https://ieeexplore.ieee.org/document/10242261/">View on IEEE Xplore</a>.</p>
+
+<div class="research-metrics">
+  <div><strong>2N−1</strong><span>independent phase-shift variables</span></div>
+  <div><strong>94.53%</strong><span>maximum measured efficiency</span></div>
+  <div><strong>20.49%</strong><span>maximum gain over SPS</span></div>
+</div>
+
+## A scalable modulation framework
+
+UPS assigns phase shifts at the bridge-leg level, producing (2N-1) independent control variables for an N-port converter. Of these, (N-1) variables enforce the required port powers and full ZVS conditions; the remaining degree of freedom is used to minimize transformer RMS current.
+
+<figure class="research-figure">
+  <img src="{{ '/assets/img/posts/mmab-ups-topology.png' | relative_url }}" alt="N-port MMAB converter under universal phase-shift modulation">
+  <figcaption>Generalized N-port converter and the phase-shift variables used by UPS.</figcaption>
+</figure>
+
+## From constraints to an optimum
+
+The paper formulates power transfer, soft-switching conditions, and current stress in a unified model. The optimization is then reduced to a tractable search over the remaining modulation freedom. Unlike strategies developed for a fixed port count, the same procedure applies when additional active bridges are added.
+
+<figure class="research-figure">
+  <img src="{{ '/assets/img/posts/mmab-ups-prototype.png' | relative_url }}" alt="Four-port MMAB experimental setup for universal phase-shift modulation">
+  <figcaption>Four-port prototype used to evaluate UPS under highly unequal operating conditions.</figcaption>
+</figure>
+
+## Efficiency under extreme conditions
+
+Experiments cover three deliberately asymmetric voltage and power conditions. UPS maintains ZVS while substantially lowering RMS current; in one case, three port currents fall from 26.21, 26.31, and 27.64 A to 7.95, 13.21, and 18.57 A. The measured peak efficiency reaches 94.53%, with a maximum improvement of 20.49% over SPS.
+
+<figure class="research-figure">
+  <img src="{{ '/assets/img/posts/mmab-ups-waveforms.png' | relative_url }}" alt="Experimental waveforms comparing SPS and UPS operation">
+  <figcaption>Experimental waveforms confirm full ZVS and reduced current stress under UPS.</figcaption>
+</figure>
+
+<div class="research-takeaway">
+  <strong>Takeaway.</strong> UPS uses the full modulation freedom of an MMAB converter to meet power commands, preserve soft switching, and reduce conduction loss within one scalable framework.
+</div>
+
