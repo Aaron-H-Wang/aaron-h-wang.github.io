@@ -5,7 +5,7 @@ permalink: /publication/
 description: Journal and conference publications by Haoyu Wang.
 ---
 
-<p class="page-lead">Peer-reviewed work in power electronics, power magnetics, real-time simulation, and data-driven engineering.</p>
+<p class="page-lead">Peer-reviewed work in power electronics, power magnetics, and data-driven techniques.</p>
 
 <section class="publication-section" aria-labelledby="journal-papers">
   <div class="publication-heading">
