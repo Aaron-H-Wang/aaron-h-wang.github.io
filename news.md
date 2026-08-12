@@ -6,7 +6,7 @@ description: News and updates from Haoyu Wang.
 category: News
 ---
 
-<p class="page-lead">Recent milestones, announcements, and updates from my academic and life.</p>
+<p class="page-lead">Recent milestones, announcements, and updates from my academic and life journey.</p>
 
 {% assign category_posts = site.categories[page.category] %}
 {% if category_posts and category_posts.size > 0 %}
