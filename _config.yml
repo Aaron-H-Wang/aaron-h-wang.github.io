@@ -19,6 +19,7 @@ social:
 # Navigation and homepage
 navigation:
   - {name: "About", link: "/about/"}
+  - {name: "Publication", link: "/publication/"}
   - {name: "Research", link: "/research/"}
   - {name: "Life", link: "/life/"}
 

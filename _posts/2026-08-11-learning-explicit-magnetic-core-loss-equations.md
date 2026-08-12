@@ -49,13 +49,13 @@ For sinusoidal excitation, the identified normalized loss equation contains only
 
 <div class="formula-scroll">
 $$
-\begin{aligned}
+
 P_{v,n} ={}& \xi_1^* f_n^{\alpha_h^*}
-B_n^{\beta_h^*+\gamma_h^*\ln(B_n+\epsilon_h)}R_h(f) \\
-&+\xi_2^*f_n^{\alpha_e^*}B_n^{\beta_e^*}R_e(f)
+B_n^{\beta_h^*+\gamma_h^*\ln(B_n+\epsilon_h)}R_h(f)
++\xi_2^*f_n^{\alpha_e^*}B_n^{\beta_e^*}R_e(f)
 +\xi_4^*f_n^{\alpha_s^*}B_n^{\beta_s^*}
 +\xi_9^*B_n.
-\end{aligned}
+
 $$
 </div>
 
