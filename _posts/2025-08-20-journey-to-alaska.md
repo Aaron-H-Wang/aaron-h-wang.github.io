@@ -13,13 +13,13 @@ tags:
 photo-essay: true
 ---
 
-<p class="research-intro">Two landscapes, one northern journey—from mountains glowing beneath an August sky to glaciers folded into the coast.</p>
+<p class="research-intro">Two landscapes and one northern journey: from mountains glowing beneath an August sky to glaciers folded into the coast.</p>
 
 <section class="island-journal" aria-labelledby="denali-heading">
   <header class="island-journal__heading">
     <p class="section-kicker">01 · BENEATH THE HIGH ONE</p>
     <h2 id="denali-heading">Denali</h2>
-    <p>Distant summits, restless clouds, and a brief evening glow across the Alaska Range.</p>
+    <p>Distant summits, restless clouds, and a brief alpenglow across the Alaska Range.</p>
   </header>
 
   <div class="island-gallery">
@@ -39,7 +39,7 @@ photo-essay: true
   <header class="island-journal__heading">
     <p class="section-kicker">02 · WHERE ICE MEETS THE COAST</p>
     <h2 id="kenai-fjords-heading">Kenai Fjords</h2>
-    <p>Blue ice, summer wildflowers, and quiet valleys carved by snow and time.</p>
+    <p>Blue glaciers, summer wildflowers, and quiet valleys carved by snow and time.</p>
   </header>
 
   <div class="island-gallery">
