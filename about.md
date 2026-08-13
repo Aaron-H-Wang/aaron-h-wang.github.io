@@ -8,7 +8,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
 <section class="about-profile">
   <div class="about-profile__copy">
     <p class="section-kicker">ECE PH.D. CANDIDATE · UT AUSTIN</p>
-    <p>I am a Ph.D. candidate in Electrical and Computer Engineering at the University of Texas at Austin, where I conduct research with Prof. Alex Hanson in the Power Electronics and Magnetics Group.</p>
+    <p>I am Haoyu Wang, a Ph.D. candidate in Electrical and Computer Engineering at the University of Texas at Austin, where I conduct research with Prof. Alex Hanson in the Power Electronics and Magnetics Group.</p>
     <p>My research at UT Austin explores how automated experimentation and data-driven methods can work together to make high-frequency power electronic systems more efficient and easier to design. I am also dedicated to high-level power electronics, such as solid-state transformers, etc. </p>
     <div class="about-topics" aria-label="Research areas">
       <span>Power Electronics</span>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Journey to Hawaii"
+title: "Journey to Hawaiʻi"
 card-image: /assets/img/posts/hawaii-2025/oahu-dsc08972.jpg
 summary: "A December journey through Hawaiʻi, remembered in volcanoes, ridgelines, ocean light, and photographs."
 categories:
@@ -37,7 +37,7 @@ photo-essay: true
   <header class="island-journal__heading">
     <p class="section-kicker">02 · ABOVE THE CLOUDS</p>
     <h2 id="maui-heading">Maui</h2>
-    <p>Haleakalā at sunset, then wind, waves, and sea turtles along the northern shore.</p>
+    <p>Haleakalā at sunset, then wind and waves along the northern shore.</p>
   </header>
 
   <div class="island-gallery">
