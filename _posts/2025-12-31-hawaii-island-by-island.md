@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Journey to Hawaiʻi"
-card-image: /assets/img/posts/hawaii-2025/oahu-dsc08972_16-9.jpg
+image: /assets/img/posts/hawaii-2025/oahu-dsc08972.jpg
 summary: "A December journey through Hawaiʻi, remembered in volcanoes, ridgelines, ocean light, and photographs."
 categories:
   - Life
