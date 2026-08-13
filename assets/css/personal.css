@@ -370,7 +370,8 @@ a { color: var(--sky-600); }
 .island-gallery__wall .photo-frame:nth-child(4n) { transform: rotate(-0.22deg); }
 .island-gallery__wall--three { column-count: 3; }
 .photo-frame--portrait { margin-left: auto; margin-right: auto; max-width: 24rem; }
-.hawaii-closing { color: #60778b; font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; font-style: italic; line-height: 1.8; margin: 1rem auto 2rem; max-width: 38rem; text-align: center; }
+.hawaii-closing,
+.photo-essay-closing { color: #60778b; font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; font-style: italic; line-height: 1.8; margin: 1rem auto 2rem; max-width: 38rem; text-align: center; }
 
 @media (max-width: 47.99em) {
   .island-journal { margin: 4rem 0 5rem; }

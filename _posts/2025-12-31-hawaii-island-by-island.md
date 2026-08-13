@@ -49,8 +49,8 @@ photo-essay: true
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08687.jpg' | relative_url }}" alt="Observatory domes silhouetted against an orange sunrise" loading="lazy"></figure>
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08692.jpg' | relative_url }}" alt="Red and orange dawn clouds over Haleakalā" loading="lazy"></figure>
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08693.jpg' | relative_url }}" alt="Feathered red clouds at sunrise" loading="lazy"></figure>
-      <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08801.jpg' | relative_url }}" alt="Ocean waves breaking across black lava rocks" loading="lazy"></figure>
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08660.jpg' | relative_url }}" alt="Mountain road curving above a sea of clouds" loading="lazy"></figure>
+      <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08801.jpg' | relative_url }}" alt="Ocean waves breaking across black lava rocks" loading="lazy"></figure>
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08822.jpg' | relative_url }}" alt="Kitesurfer above a large blue wave" loading="lazy"></figure>
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08829.jpg' | relative_url }}" alt="Kitesurfer riding above white surf with mountains beyond" loading="lazy"></figure>
       <figure class="photo-frame"><img src="{{ '/assets/img/posts/hawaii-2025/maui-dsc08833.jpg' | relative_url }}" alt="Orange kite over a rolling Pacific wave" loading="lazy"></figure>
