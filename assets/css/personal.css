@@ -424,6 +424,7 @@ a { color: var(--sky-600); }
 .publication-list li > div > a:hover { color: var(--sky-600); }
 .publication-list p { color: #71869a; font-size: 0.86rem; line-height: 1.6; margin: 0.45rem 0 0; }
 .publication-list p strong { color: var(--ink-700); }
+.publication-note { color: #9aabb8; font-size: 0.8rem; margin: 0.9rem 0 0; }
 .scholar-link { background: var(--sky-50); border: 1px solid var(--line); border-radius: 1rem; padding: 1.5rem; }
 .scholar-link .section-kicker { margin-bottom: 0.8rem; }
 
