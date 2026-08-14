@@ -106,7 +106,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
     <h2 id="beyond-lab">Curiosity in Motion</h2>
   </div>
   <div class="about-life__content">
-    <p>Outside research, I enjoy exploring both landscapes and physical limits. Mountaineering, rock climbing, running, calisthenics, and powerlifting keep me moving; photography gives me a reason to slow down and notice the places, light, and details encountered along the way.</p>
+    <p>Outside research, I enjoy exploring both landscapes and physical limits. Mountaineering, rock climbing, running, calisthenics, and powerlifting keep me moving. Photography gives me a reason to slow down and notice the places, light, and details encountered along the way.</p>
     <div class="about-interests" aria-label="Personal interests">
       <span>Mountaineering</span>
       <span>Photography</span>

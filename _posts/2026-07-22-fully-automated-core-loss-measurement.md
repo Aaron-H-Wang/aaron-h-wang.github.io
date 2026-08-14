@@ -2,7 +2,7 @@
 layout: post
 title: "Fully Automated Core-Loss Measurement for Sub-MHz Magnetics"
 mathjax: true
-card-image: /assets/img/posts/automated-core-loss-system.png
+card-image: /assets/img/posts/automated-core-loss-hardware.png
 summary: "A resonant measurement platform captures 1,320 core-loss data points in 20 seconds through switched capacitor sequences and onboard signal processing."
 categories:
   - Research
