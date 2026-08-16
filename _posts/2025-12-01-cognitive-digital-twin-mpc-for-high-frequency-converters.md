@@ -35,8 +35,8 @@ The proposed **Cognitive Digital Twin (CDT)** changes that architecture in three
 3. **Control enhancement** provides estimated high-frequency states directly to the MPC, reducing dependence on delayed sensor samples.
 
 <figure class="research-figure research-figure--wide">
-  <img src="{{ '/assets/img/posts/cdt-mpc-framework.png' | relative_url }}" alt="Comparison between a conventional digital twin and the proposed cognitive digital twin for power-converter control.">
-  <figcaption>Fig. 1. The CDT combines mode identification, a mode-driven solver, parameter identification, and a reconfigurable model inside the control loop.</figcaption>
+  <img src="{{ '/assets/img/posts/cdt-mpc-framework.png' | relative_url }}" alt="Overview of the cognitive digital twin framework for power-converter control.">
+  <figcaption>Fig. 1. Overview of the cognitive digital twin framework.</figcaption>
 </figure>
 
 ## Fast, event-driven inference
@@ -46,8 +46,8 @@ Instead of resolving every switching period with hundreds of fixed steps, the CD
 On the FPGA implementation, this produces approximately **35× faster inference than state-of-the-art offline simulation** while improving estimation accuracy by roughly three orders of magnitude. The implementation occupies 19.2% of DSPs, 6.79% of LUTs, and 3.95% of BRAM on the target platform.
 
 <figure class="research-figure research-figure--wide">
-  <img src="{{ '/assets/img/posts/cdt-mpc-efficiency.png' | relative_url }}" alt="Accuracy and computation-time comparison of the cognitive digital twin and conventional numerical solvers.">
-  <figcaption>Fig. 2. The mode-driven CDT reaches the high-accuracy, low-computation region that conventional fixed- and variable-step solvers cannot reach in real time.</figcaption>
+  <img src="{{ '/assets/img/posts/cdt-mpc-efficiency.png' | relative_url }}" alt="Calculation-point and calculation-time comparison between the cognitive digital twin solver and conventional numerical methods.">
+  <figcaption>Fig. 2. Efficiency evaluation between the CDT solver and conventional methods: (a) calculation points and (b) calculation time.</figcaption>
 </figure>
 
 ## Closing the loop
@@ -64,7 +64,7 @@ This separation also limits the amount of data required. The twin does not learn
 
 <figure class="research-figure research-figure--compact">
   <img src="{{ '/assets/img/posts/cdt-mpc-control.png' | relative_url }}" alt="Experimental current and voltage waveforms under cognitive-digital-twin-assisted model predictive control.">
-  <figcaption>Fig. 3. Experimental dynamic responses show fast state reconstruction and deadbeat current control under changing operating conditions.</figcaption>
+  <figcaption>Fig. 3. Results of the closed-loop experiments with CDT-MPC, including the complete dynamic response and zoomed-in high-frequency and dc-current waveforms.</figcaption>
 </figure>
 
 ## Why it matters
