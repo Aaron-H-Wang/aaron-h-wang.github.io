@@ -401,7 +401,7 @@ a { color: var(--sky-600); }
   color: #425b6f;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.05rem, 2vw, 1.2rem);
-  line-height: 1.9;
+  line-height: 1.75;
   margin-bottom: 1rem;
   max-width: none;
   width: 100%;
