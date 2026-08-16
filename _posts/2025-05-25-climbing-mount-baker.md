@@ -25,10 +25,11 @@ photo-essay: true
 
   <figure class="photo-frame photo-frame--hero photo-frame--captioned">
     <img src="{{ '/assets/img/posts/mount-baker-2025/mount-rainier-5224.jpg' | relative_url }}" alt="Snow-covered Mount Rainier seen through broken clouds from an airplane" loading="lazy">
-    <figcaption><span>From above</span>Mount Rainier, seen from the plane on the way north as a quiet preview of the glaciated world ahead.</figcaption>
+    <!-- <figcaption><span>From above</span>Mount Rainier, seen from the plane on the way north as a quiet preview of the glaciated world ahead.</figcaption> -->
+    <figcaption><span>Mount Rainier from above</span></figcaption>
   </figure>
 
-  <p class="mountain-story__text">Yuanlong, Yudi, and I had decided to climb before the dawn and try for the summit of Mount Baker. The weather would decide how far that plan could carry us.</p>
+  <p class="research-intro">Yuanlong, Yudi, and I had decided to climb before the dawn and try for the summit of Mount Baker. The weather would decide how far that plan could carry us.</p>
 
   <header class="island-journal__heading mountain-story__heading">
     <p class="section-kicker">02 · FIRST LIGHT</p>
@@ -38,14 +39,16 @@ photo-essay: true
 
   <figure class="photo-frame photo-frame--hero photo-frame--captioned">
     <img src="{{ '/assets/img/posts/mount-baker-2025/mount-baker-sunrise-5495.jpg' | relative_url }}" alt="Golden sunrise and clouds above the snowy North Cascades from Mount Baker" loading="lazy">
-    <figcaption><span>Dawn</span>The first light caught the clouds while the mountains below remained in blue shadow.</figcaption>
+    <!-- <figcaption><span>Dawn</span>The first light caught the clouds while the mountains below remained in blue shadow.</figcaption> -->
+    <figcaption><span>Dawn</span></figcaption>
   </figure>
 
-  <p class="mountain-story__text">For a while, the climb felt suspended between night and morning. The sky turned peach and gold above the ridgelines, and every pause revealed a little more of the vast country around us.</p>
+  <p class="research-intro">For a while, the climb felt suspended between night and morning. The sky turned peach and gold above the ridgelines, and every pause revealed a little more of the vast country around us.</p>
 
   <figure class="photo-frame photo-frame--hero photo-frame--captioned">
     <img src="{{ '/assets/img/posts/mount-baker-2025/mount-baker-sunrise-5499.jpg' | relative_url }}" alt="Soft sunrise clouds and distant snowy peaks viewed from Mount Baker" loading="lazy">
-    <figcaption><span>Across the Cascades</span>A wider sunrise unfolded above the distant peaks—one of the clearest memories from the climb.</figcaption>
+    <!-- <figcaption><span>Across the Cascades</span>A wider sunrise unfolded above the distant peaks—one of the clearest memories from the climb.</figcaption> -->
+      <figcaption><span>Across the Cascades</span></figcaption>
   </figure>
 
   <header class="island-journal__heading mountain-story__heading">
@@ -54,16 +57,17 @@ photo-essay: true
     <p>The mountain changed quickly near our summit push, and continuing no longer felt like the right choice.</p>
   </header>
 
-  <p class="mountain-story__text">Dense fog closed around us as we climbed higher. With visibility fading, the three of us chose to turn back. It was disappointing to leave the summit unfinished, but it was also an easy decision to respect: on a glaciated mountain, returning safely matters more than forcing an objective.</p>
+  <p class="research-intro">Dense fog closed around us as we climbed higher. With visibility fading, the three of us chose to turn back. It was disappointing to leave the summit unfinished, but it was also an easy decision to respect: on a glaciated mountain, returning safely matters more than forcing an objective.</p>
 
-  <p class="mountain-story__text">The summit remained somewhere beyond the whiteout, yet the day was far from empty. We shared the uncertainty, watched sunrise from high on the mountain, and came home with a deeper respect for the conditions.</p>
+  <p class="research-intro">The summit remained somewhere beyond the whiteout, yet the day was far from empty. We shared the uncertainty, watched sunrise from high on the mountain, and came home with a deeper respect for the conditions.</p>
 
   <figure class="photo-frame photo-frame--hero photo-frame--captioned photo-frame--video">
     <video controls playsinline preload="metadata" poster="{{ '/assets/img/posts/mount-baker-2025/mount-baker-video-cover.jpg' | relative_url }}">
       <source src="{{ '/assets/img/posts/mount-baker-2025/mount-baker-climbing.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support embedded video.
     </video>
-    <figcaption><span>The climb</span>Edited film from the Mount Baker attempt with Yuanlong and Yudi.</figcaption>
+    <!-- <figcaption><span>The climb</span>Edited film from the Mount Baker attempt with Yuanlong and Yudi.</figcaption> -->
+    <figcaption><span>The climb</span></figcaption>
   </figure>
 </section>
 
