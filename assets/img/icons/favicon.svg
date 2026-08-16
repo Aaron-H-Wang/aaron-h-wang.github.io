@@ -1,20 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">Overlapping AA mountain monogram</title>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- First A: a curved snow line above a lava-dark mountain base. -->
-    <g>
-      <path d="M12.4 37C10.2 43.8 7.8 49.8 5.5 55M33.6 37c2.2 6.8 4.6 12.8 6.9 18" stroke="#111214" stroke-width="7.2"/>
-      <path d="M12.4 37C10.2 43.8 7.8 49.8 5.5 55M33.6 37c2.2 6.8 4.6 12.8 6.9 18" stroke="#1b1816" stroke-width="5.2"/>
-      <path d="M12.4 37C15.3 27 19.2 15.2 23 9c3.8 6.2 7.7 18 10.6 28M12.4 37h21.2" stroke="#718491" stroke-width="7.4" opacity=".78"/>
-      <path d="M12.4 37C15.3 27 19.2 15.2 23 9c3.8 6.2 7.7 18 10.6 28M12.4 37h21.2" stroke="#fbfdff" stroke-width="5.2"/>
-    </g>
+    <!-- Draw both lava-dark bases first so every snow-white crossing stays on top. -->
+    <path d="M12.6 37C10.3 43.3 8.4 49.7 5.5 55M33.4 37c2.3 6.3 4.2 12.7 7.1 18" stroke="#111214" stroke-width="7.2"/>
+    <path d="M12.6 37C10.3 43.3 8.4 49.7 5.5 55M33.4 37c2.3 6.3 4.2 12.7 7.1 18" stroke="#1b1816" stroke-width="5.2"/>
+    <path d="M30.6 37C28.3 43.3 26.4 49.7 23.5 55M51.4 37c2.3 6.3 4.2 12.7 7.1 18" stroke="#111214" stroke-width="7.2"/>
+    <path d="M30.6 37C28.3 43.3 26.4 49.7 23.5 55M51.4 37c2.3 6.3 4.2 12.7 7.1 18" stroke="#282320" stroke-width="5.2"/>
 
-    <!-- Second A keeps the original overlap, with subtly offset snow and lava tones. -->
-    <g>
-      <path d="M30.4 37C28.2 43.8 25.8 49.8 23.5 55M51.6 37c2.2 6.8 4.6 12.8 6.9 18" stroke="#111214" stroke-width="7.2"/>
-      <path d="M30.4 37C28.2 43.8 25.8 49.8 23.5 55M51.6 37c2.2 6.8 4.6 12.8 6.9 18" stroke="#282320" stroke-width="5.2"/>
-      <path d="M30.4 37C33.3 27 37.2 15.2 41 9c3.8 6.2 7.7 18 10.6 28M30.4 37h21.2" stroke="#718491" stroke-width="7.4" opacity=".78"/>
-      <path d="M30.4 37C33.3 27 37.2 15.2 41 9c3.8 6.2 7.7 18 10.6 28M30.4 37h21.2" stroke="#edf6fb" stroke-width="5.2"/>
-    </g>
+    <!-- Slight inward curves turn the overlapping A forms into paired mountain peaks. -->
+    <path d="M12.6 37C15.2 27.8 19.7 14.4 23 9c3.3 5.4 7.8 18.8 10.4 28M12.6 37h20.8" stroke="#718491" stroke-width="7.4" opacity=".78"/>
+    <path d="M30.6 37C33.2 27.8 37.7 14.4 41 9c3.3 5.4 7.8 18.8 10.4 28M30.6 37h20.8" stroke="#718491" stroke-width="7.4" opacity=".78"/>
+    <path d="M12.6 37C15.2 27.8 19.7 14.4 23 9c3.3 5.4 7.8 18.8 10.4 28M12.6 37h20.8" stroke="#fbfdff" stroke-width="5.2"/>
+    <path d="M30.6 37C33.2 27.8 37.7 14.4 41 9c3.3 5.4 7.8 18.8 10.4 28M30.6 37h20.8" stroke="#edf6fb" stroke-width="5.2"/>
   </g>
 </svg>

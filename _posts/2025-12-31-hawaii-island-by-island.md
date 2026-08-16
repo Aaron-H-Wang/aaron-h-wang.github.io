@@ -13,7 +13,7 @@ tags:
 photo-essay: true
 ---
 
-<p class="research-intro">Four islands, many changing skies, and a camera close at hand. These are a few memories from Hawaiʻi in December 2025.</p>
+<p class="mountain-story__text">Four islands, many changing skies, and a camera close at hand. These are a few memories from Hawaiʻi in December 2025.</p>
 
 <section class="island-journal" aria-labelledby="big-island-heading">
   <header class="island-journal__heading">

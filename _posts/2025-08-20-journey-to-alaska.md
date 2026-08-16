@@ -13,7 +13,7 @@ tags:
 photo-essay: true
 ---
 
-<p class="research-intro">Two landscapes and one northern journey: from mountains glowing beneath an August sky to glaciers folded into the coast.</p>
+<p class="mountain-story__text">Two landscapes and one northern journey: from mountains glowing beneath an August sky to glaciers folded into the coast.</p>
 
 <section class="island-journal" aria-labelledby="denali-heading">
   <header class="island-journal__heading">

@@ -382,7 +382,7 @@ a { color: var(--sky-600); }
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.14em;
-  margin-bottom: 0.3rem;
+  /* margin-bottom: 0.3rem; */
   text-transform: uppercase;
 }
 .photo-frame--video video { background: #0b1720; display: block; height: auto; width: 100%; }
