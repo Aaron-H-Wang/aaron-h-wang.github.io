@@ -365,7 +365,7 @@ a { color: var(--sky-600); }
   position: relative;
 }
 .photo-frame img { background: #fff; display: block; height: auto; width: 100%; }
-.photo-frame--hero { margin: 0 auto; max-width: 62rem; padding-bottom: clamp(0.9rem, 2.2vw, 1.5rem); }
+.photo-frame--hero { margin: 0 auto clamp(1.2rem, 3vw, 2rem); max-width: 62rem; padding-bottom: clamp(0.9rem, 2.2vw, 1.5rem); }
 .photo-frame--captioned figcaption {
   color: #60778b;
   font-family: Georgia, "Times New Roman", serif;
