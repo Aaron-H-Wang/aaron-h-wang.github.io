@@ -258,8 +258,10 @@ a { color: var(--sky-600); }
 }
 .post-hero::before { background: transparent; }
 .post-hero--research { background: linear-gradient(135deg, #e9f8ff, #cceeff); }
-.post-hero--life { background: linear-gradient(135deg, #edf9ef, #d4f0dc); }
-.post-hero--news { background: linear-gradient(135deg, #fff9df, #ffefb8); }
+.post-hero--life { background: linear-gradient(135deg, #FFE4C4, #FFE4B5); }
+.post-hero--news { background: linear-gradient(135deg, #FFF0F5, #FFE4E1); }
+/* .post-hero--life { background: linear-gradient(135deg, #edf9ef, #d4f0dc); }
+.post-hero--news { background: linear-gradient(135deg, #fff9df, #ffefb8); } */
 .post-hero .hero__wrap {
   left: auto;
   max-width: 57rem;
@@ -332,8 +334,8 @@ a { color: var(--sky-600); }
 .research-table__highlight { background: var(--sky-100); color: var(--ink-900); }
 .research-takeaway { background: linear-gradient(135deg, var(--sky-50), var(--sky-100)); border: 1px solid var(--line); border-radius: 0.9rem; margin: 2rem 0; padding: 1.35rem 1.5rem; }
 .post-content--research .research-takeaway { background: linear-gradient(135deg, #e9f8ff, #cceeff); border-color: #b9e2f5; }
-.post-content--life .research-takeaway { background: linear-gradient(135deg, #edf9ef, #d4f0dc); border-color: #bfdfc8; }
-.post-content--news .research-takeaway { background: linear-gradient(135deg, #fff9df, #ffefb8); border-color: #eadb95; }
+.post-content--life .research-takeaway { background: linear-gradient(135deg, #FFE4C4, #FFE4B5); border-color: #FFE4B5; }
+.post-content--news .research-takeaway { background: linear-gradient(135deg, #FFF0F5, #FFE4E1); border-color: #FFE4E1; }
 .research-takeaway p { margin: 0; }
 
 /* Hawaii photo essay */
@@ -385,6 +387,14 @@ a { color: var(--sky-600); }
 }
 .photo-frame--video video { background: #0b1720; display: block; height: auto; width: 100%; }
 .mountain-story { margin: 4.5rem 0 1rem; }
+.mountain-story .photo-frame--hero.photo-frame--captioned {
+  padding-bottom: clamp(0.5rem, 1.3vw, 0.85rem);
+}
+.mountain-story .photo-frame--captioned figcaption {
+  line-height: 1.3;
+  padding: clamp(0.45rem, 1vw, 0.65rem) 0.15rem 0;
+}
+.mountain-story .photo-frame--captioned figcaption span { margin: 0; }
 .mountain-story__heading { margin-bottom: 2rem; margin-top: 5.5rem; }
 .mountain-story__heading:first-child { margin-top: 0; }
 .mountain-story__text {
@@ -392,10 +402,11 @@ a { color: var(--sky-600); }
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.05rem, 2vw, 1.2rem);
   line-height: 1.9;
-  margin: 2.6rem auto 4rem;
-  max-width: 42rem;
-  text-align: center;
+  margin-bottom: 1rem;
+  max-width: none;
+  width: 100%;
 }
+
 .island-gallery__wall .photo-frame:nth-child(4n+1) { transform: rotate(-0.35deg); }
 .island-gallery__wall .photo-frame:nth-child(4n+2) { transform: rotate(0.28deg); }
 .island-gallery__wall .photo-frame:nth-child(4n+3) { transform: rotate(0.16deg); }
