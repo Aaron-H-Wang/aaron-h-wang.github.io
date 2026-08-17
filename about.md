@@ -21,7 +21,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
     <img src="{{ '/assets/img/profile/haoyu-wang.jpg' | relative_url }}" alt="Haoyu Wang outdoors with a camera in a geothermal landscape">
   </figure> -->
   <figure class="about-portrait">
-    <img src="{{ '/assets/img/profile/haoyu-wang-2.jpg' | relative_url }}" alt="Haoyu Wang outdoors with a backpak in front of Denali">
+    <img src="{{ '/assets/img/profile/haoyu-wang-2.png' | relative_url }}" alt="Haoyu Wang outdoors with a backpak in front of Denali">
   </figure>
 </section>
 
