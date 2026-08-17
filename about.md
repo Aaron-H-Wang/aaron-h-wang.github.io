@@ -13,7 +13,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
     <div class="about-topics" aria-label="Research areas">
       <span>Power Electronics</span>
       <span>Power Magnetics</span>
-      <span>Data-Driven Modeling</span>
+      <span>Data-Driven Methodology</span>
     </div>
   </div>
 
@@ -31,18 +31,18 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
   <div class="about-focus-grid">
     <article class="about-focus-card">
       <span>01</span>
-      <h3>High-Frequency Power Electronics</h3>
-      <p>Modeling, modulation, control, and efficiency optimization for solid-state transformers.</p>
+      <h3>High-Level Power Electronics</h3>
+      <p>Modeling, modulation, control, and optimization for solid-state transformers, etc.</p>
     </article>
     <article class="about-focus-card">
       <span>02</span>
-      <h3>Automated Magnetic Measurement</h3>
+      <h3>Automated Magnetic Loss Measurement</h3>
       <p>Fast and accurate experimental platforms for characterizing magnetic core loss across wide frequency and excitation ranges.</p>
     </article>
     <article class="about-focus-card">
       <span>03</span>
-      <h3>Data-Driven Magnetics</h3>
-      <p>Physics-aware machine learning and symbolic identification methods that turn measured data into compact AND interpretable design equations.</p>
+      <h3>Data-Driven Techniques</h3>
+      <p>Digital twins with machine learning for advanced power electronic control and symbolic identification methods for magnetic core loss modeling.</p>
     </article>
   </div>
 </section>
