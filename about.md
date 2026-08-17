@@ -22,59 +22,6 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
   </figure>
 </section>
 
-<section class="about-section about-education" aria-labelledby="education">
-  <div class="about-section__heading">
-    <p class="section-kicker">ACADEMIC JOURNEY</p>
-    <h2 id="education">Education</h2>
-  </div>
-
-  <div class="education-list">
-    <article class="education-item">
-      <div class="education-item__period">Jun. 2024 - May 2027</div>
-      <div class="education-item__body">
-        <div class="education-item__school">
-          <h3>University of Texas at Austin</h3>
-          <span>Austin, Texas, USA</span>
-        </div>
-        <p class="education-item__degree">Ph.D. in Electrical and Computer Engineering</p>
-      </div>
-    </article>
-
-    <article class="education-item">
-      <div class="education-item__period">Aug. 2023 - May 2024</div>
-      <div class="education-item__body">
-        <div class="education-item__school">
-          <h3>Columbia University</h3>
-          <span>New York, New York, USA</span>
-        </div>
-        <p class="education-item__degree">Ph.D. in Electrical Engineering</p>
-      </div>
-    </article>
-
-    <article class="education-item">
-      <div class="education-item__period">Aug. 2020 - Jun. 2023</div>
-      <div class="education-item__body">
-        <div class="education-item__school">
-          <h3>Tsinghua University</h3>
-          <span>Beijing, China</span>
-        </div>
-        <p class="education-item__degree">M.S. in Electrical Engineering</p>
-      </div>
-    </article>
-
-    <article class="education-item">
-      <div class="education-item__period">Sept. 2016 - Jun. 2020</div>
-      <div class="education-item__body">
-        <div class="education-item__school">
-          <h3>Shanghai Jiao Tong University</h3>
-          <span>Shanghai, China</span>
-        </div>
-        <p class="education-item__degree">B.S. in Electrical Engineering and Automation</p>
-      </div>
-    </article>
-  </div>
-</section>
-
 <section class="about-section" aria-labelledby="research-focus">
   <div class="about-section__heading">
     <p class="section-kicker">WHAT I WORK ON</p>
@@ -96,6 +43,76 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
       <span>03</span>
       <h3>Data-Driven Magnetics</h3>
       <p>Physics-aware machine learning and symbolic identification methods that turn measured data into compact AND interpretable design equations.</p>
+    </article>
+  </div>
+</section>
+
+<section class="about-section about-education" aria-labelledby="education">
+  <div class="about-section__heading">
+    <p class="section-kicker">ACADEMIC JOURNEY</p>
+    <h2 id="education">Education</h2>
+  </div>
+
+  <div class="education-list">
+    <article class="education-item">
+      <div class="education-item__period">Jun. 2024 - May 2027</div>
+      <div class="education-item__body">
+        <div class="education-item__school">
+          <h3>University of Texas at Austin</h3>
+          <span>Austin, Texas, USA</span>
+        </div>
+        <p class="education-item__degree">Ph.D. in Electrical and Computer Engineering</p>
+      </div>
+    </article>
+    <article class="education-item">
+      <div class="education-item__period">Aug. 2023 - May 2024</div>
+      <div class="education-item__body">
+        <div class="education-item__school">
+          <h3>Columbia University</h3>
+          <span>New York, New York, USA</span>
+        </div>
+        <p class="education-item__degree">Ph.D. in Electrical Engineering</p>
+      </div>
+    </article>
+    <article class="education-item">
+      <div class="education-item__period">Aug. 2020 - Jun. 2023</div>
+      <div class="education-item__body">
+        <div class="education-item__school">
+          <h3>Tsinghua University</h3>
+          <span>Beijing, China</span>
+        </div>
+        <p class="education-item__degree">M.S. in Electrical Engineering</p>
+      </div>
+    </article>
+    <article class="education-item">
+      <div class="education-item__period">Sept. 2016 - Jun. 2020</div>
+      <div class="education-item__body">
+        <div class="education-item__school">
+          <h3>Shanghai Jiao Tong University</h3>
+          <span>Shanghai, China</span>
+        </div>
+        <p class="education-item__degree">B.S. in Electrical Engineering and Automation</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="about-section about-industry-experience" aria-labelledby="industry-experience">
+  <div class="about-section__heading">
+    <p class="section-kicker">PROFESSIONAL JOURNEY</p>
+    <h2 id="industry-experience">Industry Experience</h2>
+  </div>
+
+  <div class="education-list">
+    <article class="education-item">
+      <div class="education-item__period">May 2026 - Aug. 2026</div>
+      <div class="education-item__body">
+        <div class="education-item__school">
+          <h3>Delta Electronics (Americas) Ltd.</h3>
+          <span>Durham, North Carolina, USA</span>
+        </div>
+        <p class="education-item__degree">R&amp;D Intern at Milan M. Jovanović Power Electronics Lab</p>
+      </div>
     </article>
   </div>
 </section>
