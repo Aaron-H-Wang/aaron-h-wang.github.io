@@ -17,8 +17,11 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
     </div>
   </div>
 
-  <figure class="about-portrait">
+  <!-- <figure class="about-portrait">
     <img src="{{ '/assets/img/profile/haoyu-wang.jpg' | relative_url }}" alt="Haoyu Wang outdoors with a camera in a geothermal landscape">
+  </figure> -->
+  <figure class="about-portrait">
+    <img src="{{ '/assets/img/profile/haoyu-wang-2.jpg' | relative_url }}" alt="Haoyu Wang outdoors with a backpak in front of Denali">
   </figure>
 </section>
 
@@ -100,7 +103,7 @@ description: About Haoyu Wang, an ECE Ph.D. student at the University of Texas a
 <section class="about-section about-industry-experience" aria-labelledby="industry-experience">
   <div class="about-section__heading">
     <p class="section-kicker">PROFESSIONAL JOURNEY</p>
-    <h2 id="industry-experience">Industry Experience</h2>
+    <h2 id="industry-experience">Industry</h2>
   </div>
 
   <div class="education-list">
